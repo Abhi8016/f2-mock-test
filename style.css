@@ -1,0 +1,106 @@
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgb(220, 238, 245);
+	/* margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px; */
+	border: none;
+}
+
+h1 {
+	text-align: start;
+	margin-bottom: 20px;
+	padding: 20px;
+	color: white;
+	background-color: #007bff;
+	border-radius: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 20px;
+	background-color: rgb(220, 238, 245);
+}
+
+th {
+	background: black;
+}
+
+thead th {
+	background-color: #ddd;
+	text-align: left;
+	padding: 10px;
+}
+
+tbody td,
+tbody th {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+tbody td img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-right: 10px;
+}
+
+#search-input {
+	padding: 10px;
+	border-radius: 5px;
+	border: 2.5px solid black;
+	margin-right: 10px;
+	width: 100%;
+}
+
+.search-container {
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+
+.searchButton {
+	padding: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	font-weight: bolder;
+
+	/* margin-right: 10px;
+	margin-bottom: 10px; */
+}
+
+#buttonsContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+button {
+	padding: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+	font-weight: bolder;
+	/* margin-right: 10px;
+	margin-bottom: 10px; */
+}
+
+button:hover {
+	background-color: #0062cc;
+}
+
+button:active {
+	background-color: #005cbf;
+}
